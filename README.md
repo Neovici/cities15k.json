@@ -5,11 +5,11 @@ These cities comes from GeoNames Gazetteer:
 http://www.geonames.org
 
 Here is the description of the original dataset:
-> all cities with a population > 1000 or seats of adm div (ca 150.000) [...]
+> all cities with a population > 15000 or capitals (ca 25.000) [...]
 
 ## Install
 ```
-npm install --save cities.json
+npm install --save cities15k.json
 ```
 
 ## Usage
@@ -17,12 +17,12 @@ Either on **node** or the **browser** (with `webpack`) it get as simple as this:
 
 **ES5**
 ```
-const cities = require('cities.json');
+const cities = require('cities15k.json');
 ```
 
 **ES6**
 ```
-import cities from 'cities.json';
+import cities from 'cities15k.json';
 ```
 
 > Since webpack >= v2.0.0, importing of JSON files will work by default.
