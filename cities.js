@@ -1,4 +1,4 @@
-[
+export const cities = [
   {
     "country": "AD",
     "name": "Andorra la Vella",
